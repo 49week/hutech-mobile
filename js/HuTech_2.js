@@ -1,4 +1,4 @@
-jQuery2(function(){
+$(function(){
     imagePreload = function() {
         var image_cache_array = new Array(),
             i = 0;
@@ -137,13 +137,13 @@ jQuery2(function(){
 
 
     function effectHandler(ele){
-        jQuery2(ele).each(function (i) {
-            var bottom_of_element = jQuery2(this).offset().top + 100;
-            var bottom_of_window = jQuery2(window).scrollTop() + jQuery2(window).height();
+        $(ele).each(function (i) {
+            var bottom_of_element = $(this).offset().top + 100;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
             if (bottom_of_window > bottom_of_element) {
-            jQuery2(this).addClass('effect');
+            $(this).addClass('effect');
             }else{
-                jQuery2(this).removeClass('effect');
+                $(this).removeClass('effect');
             }
         });
     }
@@ -154,7 +154,7 @@ jQuery2(function(){
     effectHandler(".left-to-right");
     effectHandler(".right-to-left");
 
-    jQuery2(window).scroll(function () {
+    $(window).scroll(function () {
         
         effectHandler(".fade-effect");
         effectHandler(".bottom-to-top");
@@ -296,86 +296,86 @@ jQuery2(function(){
     // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller12)
 
-    jQuery2(".pop-action").click(function(){
-        jQuery2(this).toggleClass("on");
-        jQuery2(".link-wrap").fadeToggle("on");
+    $(".pop-action").click(function(){
+        $(this).toggleClass("on");
+        $(".link-wrap").fadeToggle("on");
     })
     
-    jQuery2(".pop-top").click(function(){
-        jQuery2('html, body').animate({
+    $(".pop-top").click(function(){
+        $('html, body').animate({
             scrollTop : 0
         }, 400);
     })
 
     function section2_ani(){
-        jQuery2('#section2 h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section2 p:nth-child(2)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section2 p:nth-child(3)').delay(1000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section2 p:nth-child(4)').delay(1500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section2 h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section2 p:nth-child(2)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section2 p:nth-child(3)').delay(1000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section2 p:nth-child(4)').delay(1500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section3_ani(){
-        jQuery2('#section3 .titbox p').animate({'top':'0','opacity':'1'},1000);
-        jQuery2('#section3 .titbox h1').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section3 .txtbox p').delay(1000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section3 .drawingBox .drawing p').delay(1500).animate({'opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section3 .drawingBox .drawing span:nth-child(8)').delay(1500).animate({'width':'29vw'},3000,'easeOutExpo');
-        jQuery2('#section3 .drawingBox .drawing span:nth-child(9)').delay(1500).animate({'width':'29vw'},3000,'easeOutExpo');
-        jQuery2('#section3 .drawingBox .drawing span').not('.drawing span:nth-child(8),.drawing span:nth-child(9)').delay(1500).animate({'width':'51.5vw'},3000,'easeOutExpo');
+        $('#section3 .titbox p').animate({'top':'0','opacity':'1'},1000);
+        $('#section3 .titbox h1').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section3 .txtbox p').delay(1000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section3 .drawingBox .drawing p').delay(1500).animate({'opacity':'1'},1000,'easeOutExpo');
+        $('#section3 .drawingBox .drawing span:nth-child(8)').delay(1500).animate({'width':'29vw'},3000,'easeOutExpo');
+        $('#section3 .drawingBox .drawing span:nth-child(9)').delay(1500).animate({'width':'29vw'},3000,'easeOutExpo');
+        $('#section3 .drawingBox .drawing span').not('.drawing span:nth-child(8),.drawing span:nth-child(9)').delay(1500).animate({'width':'51.5vw'},3000,'easeOutExpo');
     }
 
     function section4_ani(){
-        jQuery2('#section3 .contentboxs>p').delay(2000).animate({'top':'0','opacity':'1'},1000);
-        jQuery2('#section3 .contentboxs .contentbox .cont1 h1,#section3 .contentboxs .contentbox .cont1 p').delay(2500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section3 .contentboxs .contentbox .cont2 h1,#section3 .contentboxs .contentbox .cont2 p').delay(3000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section3 .contentboxs .contentbox .cont3 h1,#section3 .contentboxs .contentbox .cont3 p').delay(3500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section3 .contentboxs>p').delay(2000).animate({'top':'0','opacity':'1'},1000);
+        $('#section3 .contentboxs .contentbox .cont1 h1,#section3 .contentboxs .contentbox .cont1 p').delay(2500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section3 .contentboxs .contentbox .cont2 h1,#section3 .contentboxs .contentbox .cont2 p').delay(3000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section3 .contentboxs .contentbox .cont3 h1,#section3 .contentboxs .contentbox .cont3 p').delay(3500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section5_ani(){
-        jQuery2('#section5 .txtbox p').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section5 .txtbox h1').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section5 .txtbox p').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section5 .txtbox h1').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section6_ani(){
-        jQuery2('#section6 .sub-label,#section6 .sub-op-title').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section6 .sub-op-des').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section6 .sub-label,#section6 .sub-op-title').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section6 .sub-op-des').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section7_ani(){
-        jQuery2('#section7 .txtbox h1,#section7 .txtbox p:nth-child(1)').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .txtbox p:nth-child(3)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox1 h1,#section7 .contentbox1>p,#section7 .contentbox1 .btn').delay(1000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox1 .keyword').delay(1000).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox2 h1,#section7 .contentbox2>p,#section7 .contentbox2 .btn').delay(1500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox2 .keyword').delay(1500).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox3 h1,#section7 .contentbox3>p,#section7 .contentbox3 .btn').delay(2000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox3 .keyword').delay(2000).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox4 h1,#section7 .contentbox4>p,#section7 .contentbox4 .btn').delay(2500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section7 .contentbox4 .keyword').delay(2500).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .txtbox h1,#section7 .txtbox p:nth-child(1)').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .txtbox p:nth-child(3)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox1 h1,#section7 .contentbox1>p,#section7 .contentbox1 .btn').delay(1000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox1 .keyword').delay(1000).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox2 h1,#section7 .contentbox2>p,#section7 .contentbox2 .btn').delay(1500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox2 .keyword').delay(1500).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox3 h1,#section7 .contentbox3>p,#section7 .contentbox3 .btn').delay(2000).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox3 .keyword').delay(2000).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox4 h1,#section7 .contentbox4>p,#section7 .contentbox4 .btn').delay(2500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section7 .contentbox4 .keyword').delay(2500).animate({'top':'15px','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section8_ani(){
-        jQuery2('#section8 .txtbox1 p:nth-child(1),#section8 .txtbox1 h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section8 .txtbox1 div,#section8 .txtbox1 p:nth-child(4)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section8 .txtbox1 p:nth-child(1),#section8 .txtbox1 h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section8 .txtbox1 div,#section8 .txtbox1 p:nth-child(4)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section9_ani(){
-        jQuery2('#section9 .txtbox2 div,#section9 .txtbox2 p').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section9 .txtbox2 div,#section9 .txtbox2 p').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section10_ani(){
-        jQuery2('#section10 .txtbox p:nth-child(1),#section10 .txtbox h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section10 .txtbox p:nth-child(3)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section10 .txtbox p:nth-child(1),#section10 .txtbox h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section10 .txtbox p:nth-child(3)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section11_ani(){
-        jQuery2('#section11 .txtbox p:nth-child(1),#section11 .txtbox h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section11 .txtbox p:nth-child(3)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section11 .txtbox p:nth-child(1),#section11 .txtbox h1').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section11 .txtbox p:nth-child(3)').delay(500).animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
     }
 
     function section12_ani(){
-        jQuery2('#section12 .sub-label,#section12 .sub-op-title').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
-        jQuery2('#section12 .sub-op-des').delay(500).animate({'top':'-10px','opacity':'1'},1000,'easeOutExpo');
+        $('#section12 .sub-label,#section12 .sub-op-title').animate({'top':'0','opacity':'1'},1000,'easeOutExpo');
+        $('#section12 .sub-op-des').delay(500).animate({'top':'-10px','opacity':'1'},1000,'easeOutExpo');
     }
 
     const swiper4 = new Swiper(".mySwiper4", {
@@ -437,7 +437,7 @@ jQuery2(function(){
                 if(bgCount < 0){
                     bgCount = 1;
                 }
-                mainBG.style.backgroundImage = `url('./js/sub-bg-jQuery2{bgCount}.png')`;
+                mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
 
                 for(let i = 0; i < subDes.length; i++){
                     if(i == bgCount){
@@ -465,7 +465,7 @@ jQuery2(function(){
         if(bgCount < 0){
             bgCount = 1;
         }
-        mainBG.style.backgroundImage = `url('./js/sub-bg-jQuery2{bgCount}.png')`;
+        mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
 
         for(let i = 0; i < subDes.length; i++){
             if(i == bgCount){
@@ -483,7 +483,7 @@ jQuery2(function(){
     nextButton.addEventListener("click", function(){
         count++;
         bgCount = count % slideAll.length;
-        mainBG.style.backgroundImage = `url('./js/sub-bg-jQuery2{bgCount}.png')`;
+        mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
 
         for(let i = 0; i < subDes.length; i++){
             if(i == bgCount){
@@ -596,7 +596,7 @@ jQuery2(function(){
                 if(bgCount1 < 0){
                     bgCount1 = 1;
                 }
-                mainBG1.style.backgroundImage = `url('./js/sub10-bg-jQuery2{bgCount1}.png')`;
+                mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
 
                 for(let i = 0; i < subDes1.length; i++){
                     if(i == bgCount1){
@@ -625,7 +625,7 @@ jQuery2(function(){
         if(bgCount1 < 0){
             bgCount1 = 1;
         }
-        mainBG1.style.backgroundImage = `url('./js/sub10-bg-jQuery2{bgCount1}.png')`;
+        mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
 
         for(let i = 0; i < subDes1.length; i++){
             if(i == bgCount1){
@@ -645,7 +645,7 @@ jQuery2(function(){
             bgCount1 = 1;
         }
 
-        mainBG1.style.backgroundImage = `url('./js/sub10-bg-jQuery2{bgCount1}.png')`;
+        mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
 
         for(let i = 0; i < subDes1.length; i++){
             if(i == bgCount1){

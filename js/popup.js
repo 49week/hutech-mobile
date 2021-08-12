@@ -1,93 +1,93 @@
-$(function(){
+jQuery2(function(){
     //--------------------------#life-technician-popup-------------------------------------
-    $('#slide1 img').next().click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#slide1 img').next().click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area1').show();
-        $('.bg_area1').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#life-technician_popup_soungdon').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area1').show();
+        jQuery2('.bg_area1').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#life-technician_popup_soungdon').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#life-technician_popup_soungdon .header img').click(function(){
-        $('.bg_area1').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area1').hide();
-        $('#life-technician_popup_soungdon').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#life-technician_popup_soungdon .header img').click(function(){
+        jQuery2('.bg_area1').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area1').hide();
+        jQuery2('#life-technician_popup_soungdon').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#slide2 img').next().click(function(){
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#slide2 img').next().click(function(){
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('.bg_area2').show();
-        $('.bg_area2').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#life-technician_popup_hong').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('.bg_area2').show();
+        jQuery2('.bg_area2').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#life-technician_popup_hong').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#life-technician_popup_hong .header img').click(function(){
-        $('.bg_area2').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area2').hide();
-        $('#life-technician_popup_hong').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#life-technician_popup_hong .header img').click(function(){
+        jQuery2('.bg_area2').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area2').hide();
+        jQuery2('#life-technician_popup_hong').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#life-technician_popup_soungdon .arrow .prev').click(function(){
-        $('#life-technician_popup_soungdon').hide();
-        $('.bg_area1').hide();
-        $('.bg_area2').show();
-        $('.bg_area2').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#life-technician_popup_hong').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#life-technician_popup_soungdon .arrow .prev').click(function(){
+        jQuery2('#life-technician_popup_soungdon').hide();
+        jQuery2('.bg_area1').hide();
+        jQuery2('.bg_area2').show();
+        jQuery2('.bg_area2').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#life-technician_popup_hong').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#life-technician_popup_soungdon .arrow .next').click(function(){
-        $('#life-technician_popup_soungdon').hide();
-        $('.bg_area1').hide();
-        $('.bg_area2').show();
-        $('.bg_area2').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#life-technician_popup_hong').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#life-technician_popup_soungdon .arrow .next').click(function(){
+        jQuery2('#life-technician_popup_soungdon').hide();
+        jQuery2('.bg_area1').hide();
+        jQuery2('.bg_area2').show();
+        jQuery2('.bg_area2').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#life-technician_popup_hong').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
 
-    $('#life-technician_popup_hong .arrow .prev').click(function(){
-        $('#life-technician_popup_hong').hide();
-        $('.bg_area2').hide();
-        $('.bg_area1').show();
-        $('.bg_area1').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#life-technician_popup_soungdon').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#life-technician_popup_hong .arrow .prev').click(function(){
+        jQuery2('#life-technician_popup_hong').hide();
+        jQuery2('.bg_area2').hide();
+        jQuery2('.bg_area1').show();
+        jQuery2('.bg_area1').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#life-technician_popup_soungdon').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#life-technician_popup_hong .arrow .next').click(function(){
-        $('#life-technician_popup_hong').hide();
-        $('.bg_area2').hide();
-        $('.bg_area1').show();
-        $('.bg_area1').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#life-technician_popup_soungdon').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#life-technician_popup_hong .arrow .next').click(function(){
+        jQuery2('#life-technician_popup_hong').hide();
+        jQuery2('.bg_area2').hide();
+        jQuery2('.bg_area1').show();
+        jQuery2('.bg_area1').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#life-technician_popup_soungdon').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
@@ -95,93 +95,93 @@ $(function(){
     });
     //--------------------------#moment_popup-------------------------------------
         
-    $('#slide3 img').next().click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#slide3 img').next().click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area3').show();
-        $('.bg_area3').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#moment_popup_park').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area3').show();
+        jQuery2('.bg_area3').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#moment_popup_park').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#moment_popup_park .header img').click(function(){
-        $('.bg_area3').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area3').hide();
-        $('#moment_popup_park').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#moment_popup_park .header img').click(function(){
+        jQuery2('.bg_area3').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area3').hide();
+        jQuery2('#moment_popup_park').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#slide4 img').next().click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#slide4 img').next().click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area4').show();
-        $('.bg_area4').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#moment_popup_kim').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area4').show();
+        jQuery2('.bg_area4').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#moment_popup_kim').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#moment_popup_kim .header img').click(function(){
-        $('.bg_area4').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area4').hide();
-        $('#moment_popup_kim').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#moment_popup_kim .header img').click(function(){
+        jQuery2('.bg_area4').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area4').hide();
+        jQuery2('#moment_popup_kim').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#moment_popup_park .arrow .prev').click(function(){
-        $('#moment_popup_park').hide();
-        $('.bg_area3').hide();
-        $('.bg_area4').show();
-        $('.bg_area4').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#moment_popup_kim').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#moment_popup_park .arrow .prev').click(function(){
+        jQuery2('#moment_popup_park').hide();
+        jQuery2('.bg_area3').hide();
+        jQuery2('.bg_area4').show();
+        jQuery2('.bg_area4').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#moment_popup_kim').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#moment_popup_park .arrow .next').click(function(){
-        $('#moment_popup_park').hide();
-        $('.bg_area3').hide();
-        $('.bg_area4').show();
-        $('.bg_area4').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#moment_popup_kim').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#moment_popup_park .arrow .next').click(function(){
+        jQuery2('#moment_popup_park').hide();
+        jQuery2('.bg_area3').hide();
+        jQuery2('.bg_area4').show();
+        jQuery2('.bg_area4').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#moment_popup_kim').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#moment_popup_kim .arrow .prev').click(function(){
-        $('#moment_popup_kim').hide();
-        $('.bg_area4').hide();
-        $('.bg_area3').show();
-        $('.bg_area3').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#moment_popup_park').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#moment_popup_kim .arrow .prev').click(function(){
+        jQuery2('#moment_popup_kim').hide();
+        jQuery2('.bg_area4').hide();
+        jQuery2('.bg_area3').show();
+        jQuery2('.bg_area3').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#moment_popup_park').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#moment_popup_kim .arrow .next').click(function(){
-        $('#moment_popup_kim').hide();
-        $('.bg_area4').hide();
-        $('.bg_area3').show();
-        $('.bg_area3').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#moment_popup_park').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#moment_popup_kim .arrow .next').click(function(){
+        jQuery2('#moment_popup_kim').hide();
+        jQuery2('.bg_area4').hide();
+        jQuery2('.bg_area3').show();
+        jQuery2('.bg_area3').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#moment_popup_park').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
@@ -189,188 +189,188 @@ $(function(){
     });
     //--------------------------#keyword_popup-------------------------------------
 
-    $('#btn1').click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#btn1').click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area5').show();
-        $('.bg_area5').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_1').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area5').show();
+        jQuery2('.bg_area5').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_1').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_1 .header img').click(function(){
-        $('.bg_area5').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area5').hide();
-        $('#keyword_popup_1').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#keyword_popup_1 .header img').click(function(){
+        jQuery2('.bg_area5').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area5').hide();
+        jQuery2('#keyword_popup_1').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#btn2').click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#btn2').click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area6').show();
-        $('.bg_area6').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_2').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area6').show();
+        jQuery2('.bg_area6').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_2').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_2 .header img').click(function(){
-        $('.bg_area6').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area6').hide();
-        $('#keyword_popup_2').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#keyword_popup_2 .header img').click(function(){
+        jQuery2('.bg_area6').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area6').hide();
+        jQuery2('#keyword_popup_2').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#btn3').click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#btn3').click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area7').show();
-        $('.bg_area7').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_3').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area7').show();
+        jQuery2('.bg_area7').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_3').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_3 .header img').click(function(){
-        $('.bg_area7').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area7').hide();
-        $('#keyword_popup_3').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#keyword_popup_3 .header img').click(function(){
+        jQuery2('.bg_area7').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area7').hide();
+        jQuery2('#keyword_popup_3').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#btn4').click(function(){
-        $('#bg_scroll').show();
-        $('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#bg_scroll').click(function(){
-            $('#bg_scroll').hide();
+    jQuery2('#btn4').click(function(){
+        jQuery2('#bg_scroll').show();
+        jQuery2('#bg_scroll').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#bg_scroll').click(function(){
+            jQuery2('#bg_scroll').hide();
         });
-        $('.bg_area8').show();
-        $('.bg_area8').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_4').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+        jQuery2('.bg_area8').show();
+        jQuery2('.bg_area8').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_4').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_4 .header img').click(function(){
-        $('.bg_area8').animate({opacity:'0'},1000,'easeOutExpo');
-        $('.bg_area8').hide();
-        $('#keyword_popup_4').hide();
-        $('body').off('scroll touchmove mousewheel');
+    jQuery2('#keyword_popup_4 .header img').click(function(){
+        jQuery2('.bg_area8').animate({opacity:'0'},1000,'easeOutExpo');
+        jQuery2('.bg_area8').hide();
+        jQuery2('#keyword_popup_4').hide();
+        jQuery2('body').off('scroll touchmove mousewheel');
     });
 
-    $('#keyword_popup_1 .arrow .prev').click(function(){
-        $('#keyword_popup_1').hide();
-        $('.bg_area5').hide();
-        $('.bg_area8').show();
-        $('.bg_area8').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_4').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#keyword_popup_1 .arrow .prev').click(function(){
+        jQuery2('#keyword_popup_1').hide();
+        jQuery2('.bg_area5').hide();
+        jQuery2('.bg_area8').show();
+        jQuery2('.bg_area8').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_4').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_1 .arrow .next').click(function(){
-        $('#keyword_popup_1').hide();
-        $('.bg_area5').hide();
-        $('.bg_area6').show();
-        $('.bg_area6').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_2').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            return false;
-            });
-    });
-
-    $('#keyword_popup_2 .arrow .prev').click(function(){
-        $('#keyword_popup_2').hide();
-        $('.bg_area6').hide();
-        $('.bg_area5').show();
-        $('.bg_area5').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_1').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            return false;
-            });
-    });
-    $('#keyword_popup_2 .arrow .next').click(function(){
-        $('#keyword_popup_2').hide();
-        $('.bg_area6').hide();
-        $('.bg_area7').show();
-        $('.bg_area7').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_3').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#keyword_popup_1 .arrow .next').click(function(){
+        jQuery2('#keyword_popup_1').hide();
+        jQuery2('.bg_area5').hide();
+        jQuery2('.bg_area6').show();
+        jQuery2('.bg_area6').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_2').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
 
-    $('#keyword_popup_3 .arrow .prev').click(function(){
-        $('#keyword_popup_3').hide();
-        $('.bg_area7').hide();
-        $('.bg_area6').show();
-        $('.bg_area6').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_2').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#keyword_popup_2 .arrow .prev').click(function(){
+        jQuery2('#keyword_popup_2').hide();
+        jQuery2('.bg_area6').hide();
+        jQuery2('.bg_area5').show();
+        jQuery2('.bg_area5').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_1').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_3 .arrow .next').click(function(){
-        $('#keyword_popup_3').hide();
-        $('.bg_area7').hide();
-        $('.bg_area8').show();
-        $('.bg_area8').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_4').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#keyword_popup_2 .arrow .next').click(function(){
+        jQuery2('#keyword_popup_2').hide();
+        jQuery2('.bg_area6').hide();
+        jQuery2('.bg_area7').show();
+        jQuery2('.bg_area7').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_3').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
 
-    $('#keyword_popup_4 .arrow .prev').click(function(){
-        $('#keyword_popup_4').hide();
-        $('.bg_area8').hide();
-        $('.bg_area7').show();
-        $('.bg_area7').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_3').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#keyword_popup_3 .arrow .prev').click(function(){
+        jQuery2('#keyword_popup_3').hide();
+        jQuery2('.bg_area7').hide();
+        jQuery2('.bg_area6').show();
+        jQuery2('.bg_area6').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_2').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
             });
     });
-    $('#keyword_popup_4 .arrow .next').click(function(){
-        $('#keyword_popup_4').hide();
-        $('.bg_area8').hide();
-        $('.bg_area5').show();
-        $('.bg_area5').animate({opacity:'1'},1000,'easeOutExpo');
-        $('#keyword_popup_1').show();
-        $('body').on('scroll touchmove mousewheel', function(event) {
+    jQuery2('#keyword_popup_3 .arrow .next').click(function(){
+        jQuery2('#keyword_popup_3').hide();
+        jQuery2('.bg_area7').hide();
+        jQuery2('.bg_area8').show();
+        jQuery2('.bg_area8').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_4').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+            });
+    });
+
+    jQuery2('#keyword_popup_4 .arrow .prev').click(function(){
+        jQuery2('#keyword_popup_4').hide();
+        jQuery2('.bg_area8').hide();
+        jQuery2('.bg_area7').show();
+        jQuery2('.bg_area7').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_3').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+            });
+    });
+    jQuery2('#keyword_popup_4 .arrow .next').click(function(){
+        jQuery2('#keyword_popup_4').hide();
+        jQuery2('.bg_area8').hide();
+        jQuery2('.bg_area5').show();
+        jQuery2('.bg_area5').animate({opacity:'1'},1000,'easeOutExpo');
+        jQuery2('#keyword_popup_1').show();
+        jQuery2('body').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
             return false;
