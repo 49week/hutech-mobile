@@ -16,7 +16,7 @@ $(function(){
         return i;
         }
         window.onload = function() {
-            imagePreload( '/image/intro3_1.png' );
+            imagePreload( './js/intro3_1.png' );
     }
 
     var controller = new ScrollMagic.Controller();
@@ -119,7 +119,7 @@ $(function(){
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         }, {
-        backgroundImage: 'url("/image/intro3_1.png")',
+        backgroundImage: 'url("./js/intro3_1.png")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         });
