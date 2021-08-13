@@ -233,10 +233,10 @@ header h1 a img{
     width: 80%;
     text-align: center;
     margin: 0 auto;
-    font-size: 10vw;
+    font-size: 8vw;
     letter-spacing: -2px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 420px;
     line-height: 1;
     position: relative;
@@ -287,7 +287,7 @@ header h1 a img{
 #section3 .titbox p{
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 20px;
     position: relative;
     top: 5vw;
@@ -521,7 +521,7 @@ header h1 a img{
 #section5 .txtbox p:nth-child(1){
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 #section5 .txtbox p:nth-child(2){
@@ -534,7 +534,7 @@ header h1 a img{
 #section5 .txtbox h1{
     font-size: 8vw;
     padding-bottom: 50px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.2;
     position: relative;
     top: 15px;
@@ -606,7 +606,7 @@ header h1 a img{
     display: block;
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 20px;
     position: relative;
     top: 15px;
@@ -638,7 +638,7 @@ header h1 a img{
     display: none;
     font-size: 8.5vw;
     color: #fff;
-    font-weight: 450;
+    font-weight: 500;
     line-height: 1.2;
     padding-bottom: 40px;
     position: relative;
@@ -737,13 +737,13 @@ header h1 a img{
 #section7 .txtbox p:nth-child(1){
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 3vw;
 }
 #section7 .txtbox h1{
-    font-size: 6.5vw;
+    font-size: 8vw;
     color: #000;
-    font-weight: 450;
+    font-weight: bold;
     line-height: 1.2;
     padding-bottom: 3vw;
     position: relative;
@@ -756,7 +756,7 @@ header h1 a img{
     opacity: 0;
 }
 #section7 .txtbox p:nth-child(3){
-    font-size: 3.5vw;
+    font-size: 4vw;
     color: #000;
     font-weight: 400;
     padding-bottom: 10vw;
@@ -1089,7 +1089,7 @@ header h1 a img{
 #section8 .txtbox1 h1{
     font-size: 7vw;
     color: #000;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.2;
     padding-bottom: 20px;
 }
@@ -1169,7 +1169,7 @@ header h1 a img{
 #section8 .swiper-slide .contentbox>div{
     position: absolute;
     bottom: 5%;
-    right: 0;
+    right: -20px;
     z-index: 20;
 }
 #section8 .swiper-slide .contentbox>div a{
@@ -1292,7 +1292,7 @@ header h1 a img{
 #section9 .swiper-slide .contentbox>div{
     position: absolute;
     bottom: 5%;
-    right: 0;
+    right: -20px;
     z-index: 20;
 }
 #section9 .swiper-slide .contentbox>div a{
@@ -1342,7 +1342,7 @@ header h1 a img{
 #section10 .txtbox p:nth-child(1){
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 #section10 .txtbox p:nth-child(3){
@@ -1355,7 +1355,7 @@ header h1 a img{
 #section10 .txtbox h1{
     font-size: 8vw;
     padding-bottom: 20px;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 1.2;
 }
 #section10 .slide-wrap {
@@ -1432,7 +1432,7 @@ header h1 a img{
 #section11 .txtbox p:nth-child(1){
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 #section11 .txtbox p:nth-child(3){
@@ -1501,7 +1501,7 @@ header h1 a img{
     display: block;
     font-size: 4vw;
     color: #b18269;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 20px;
     position: relative;
     top: 15px;
@@ -1533,7 +1533,7 @@ header h1 a img{
     display: none;
     font-size: 8.5vw;
     color: #fff;
-    font-weight: 450;
+    font-weight: 500;
     line-height: 1.2;
     padding-bottom: 40px;
     position: relative;
@@ -1587,7 +1587,7 @@ header h1 a img{
 }
 #section12 .mySwiper02 .swiper-slide h1{
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     line-height: 1.2;
 }
 #section12 .mySwiper02 .swiper-slide p{
