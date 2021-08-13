@@ -29,12 +29,10 @@ $(function(){
     .setPin("#pin1")
     .addTo(controller);
     
-
+    
     var tween = TweenMax.to('#title01', 100, {
         opacity: 0,
     });
-
-    
 
     var scene2 = new ScrollMagic.Scene({
         triggerElement: "#trigger1",
