@@ -194,7 +194,7 @@ $(function(){
     var section5 = new ScrollMagic.Scene({
         triggerElement: "#section5",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section5_ani();
@@ -206,7 +206,7 @@ $(function(){
     var section6 = new ScrollMagic.Scene({
         triggerElement: "#section6",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section6_ani();
@@ -218,7 +218,7 @@ $(function(){
     var section7 = new ScrollMagic.Scene({
         triggerElement: "#section7",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section7_ani();
@@ -230,7 +230,7 @@ $(function(){
     var section8 = new ScrollMagic.Scene({
         triggerElement: "#section8",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section8_ani();
@@ -242,7 +242,7 @@ $(function(){
     var section9 = new ScrollMagic.Scene({
         triggerElement: "#section9",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.8,
         offset: 0
     }).on("start", function (){
         section9_ani();
@@ -254,7 +254,7 @@ $(function(){
     var section10 = new ScrollMagic.Scene({
         triggerElement: "#section10",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section10_ani();
@@ -266,7 +266,7 @@ $(function(){
     var section11 = new ScrollMagic.Scene({
         triggerElement: "#section11",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section11_ani();
@@ -278,7 +278,7 @@ $(function(){
     var section12 = new ScrollMagic.Scene({
         triggerElement: "#section12",
         duration: 0.1,
-        triggerHook: 0.4,
+        triggerHook: 0.7,
         offset: 0
     }).on("start", function (){
         section12_ani();
