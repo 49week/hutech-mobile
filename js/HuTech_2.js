@@ -114,7 +114,6 @@ $(function(){
     .setTween(tween5)
     .setClassToggle(".indi05", "active")
     .addTo(controller)
-    // .addIndicators({name: "3 (duration: 700)"});
 
     var tween5 = TweenMax.fromTo('#pin1', 100, {
         backgroundRepeat: "no-repeat",
@@ -175,7 +174,6 @@ $(function(){
         section2_ani();
     })
     .setPin("#section2")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller2)
 
     var controller3 = new ScrollMagic.Controller();
@@ -189,7 +187,6 @@ $(function(){
         section4_ani();
     })
     .setPin("#section3")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller3)
     
     var controller5 = new ScrollMagic.Controller();
@@ -202,7 +199,6 @@ $(function(){
         section5_ani();
     })
     .setPin("#section5")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller5)
 
     var controller6 = new ScrollMagic.Controller();
@@ -215,7 +211,6 @@ $(function(){
         section6_ani();
     })
     .setPin("#section6")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller6)
 
     var controller7 = new ScrollMagic.Controller();
@@ -228,7 +223,6 @@ $(function(){
         section7_ani();
     })
     .setPin("#section7")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller7)
 
     var controller8 = new ScrollMagic.Controller();
@@ -241,7 +235,6 @@ $(function(){
         section8_ani();
     })
     .setPin("#section8")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller8)
 
     var controller9 = new ScrollMagic.Controller();
@@ -254,7 +247,6 @@ $(function(){
         section9_ani();
     })
     .setPin("#section9")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller9)
 
     var controller10 = new ScrollMagic.Controller();
@@ -267,7 +259,6 @@ $(function(){
         section10_ani();
     })
     .setPin("#section10")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller10)
 
     var controller11 = new ScrollMagic.Controller();
@@ -280,7 +271,6 @@ $(function(){
         section11_ani();
     })
     .setPin("#section11")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller11)
 
     var controller12 = new ScrollMagic.Controller();
@@ -293,7 +283,6 @@ $(function(){
         section12_ani();
     })
     .setPin("#section12")
-    // .addIndicators({name: "4 (duration: 700)"}) 
     .addTo(controller12)
 
     $(".pop-action").click(function(){
@@ -319,9 +308,9 @@ $(function(){
         $('#section3 .titbox h1').delay(500).animate({'top':'0','opacity':'1'},1000);
         $('#section3 .txtbox p').delay(1000).animate({'top':'0','opacity':'1'},1000);
         $('#section3 .drawingBox .drawing p').delay(1500).animate({'opacity':'1'},1000);
-        $('#section3 .drawingBox .drawing span:nth-child(8)').delay(1500).animate({'width':'29vw'},3000);
-        $('#section3 .drawingBox .drawing span:nth-child(9)').delay(1500).animate({'width':'29vw'},3000);
-        $('#section3 .drawingBox .drawing span').not('.drawing span:nth-child(8),.drawing span:nth-child(9)').delay(1500).animate({'width':'51.5vw'},3000);
+        $('#section3 .drawingBox .drawing span:nth-child(8)').delay(1500).animate({'width':'29vw'},2000);
+        $('#section3 .drawingBox .drawing span:nth-child(9)').delay(1500).animate({'width':'29vw'},2000);
+        $('#section3 .drawingBox .drawing span').not('.drawing span:nth-child(8),.drawing span:nth-child(9)').delay(1500).animate({'width':'51.5vw'},2000);
     }
 
     function section4_ani(){
