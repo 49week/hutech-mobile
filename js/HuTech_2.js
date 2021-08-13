@@ -374,6 +374,8 @@ $(function(){
         delay: 1,
         disableOnInteraction: false
         },
+        allowTouchMove : false,
+        noSwiping:true,
         slidesPerView: 3,
         speed: 2000
         });
