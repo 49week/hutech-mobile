@@ -1826,15 +1826,15 @@ header h1 a img{
 }
 #life-technician_popup_soungdon .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
-    /* overflow:hidden; */
+    overflow:hidden;
     overflow-y:scroll;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 95vh;
     margin: auto;
     background: url(../image/popup/life_technician_don.png) center top no-repeat;
     background-size: cover;
@@ -1844,13 +1844,13 @@ header h1 a img{
 }
 #life-technician_popup_soungdon .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #life-technician_popup_soungdon .header p{
@@ -1858,7 +1858,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -1867,7 +1867,7 @@ header h1 a img{
 }
 #life-technician_popup_soungdon .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -1878,8 +1878,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
-    padding-bottom: 20vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 #life-technician_popup_soungdon .txtbox h1{
     color: #fff;
@@ -1989,7 +1989,7 @@ header h1 a img{
     width: 95%;
     margin: 0 auto;
     margin-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 30vw;
 }
 #life-technician_popup_soungdon .youtubebox iframe{
     width: 100%;
@@ -2020,7 +2020,7 @@ header h1 a img{
 }
 #life-technician_popup_hong .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -2028,7 +2028,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 95vh;
     margin: auto;
     background: url(../image/popup/life_technician_hong.png) center top no-repeat;
     background-size: cover;
@@ -2038,13 +2038,13 @@ header h1 a img{
 }
 #life-technician_popup_hong .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #life-technician_popup_hong .header p{
@@ -2052,7 +2052,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -2061,7 +2061,7 @@ header h1 a img{
 }
 #life-technician_popup_hong .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -2072,7 +2072,7 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
     padding-bottom: 20vw;
 }
 #life-technician_popup_hong .txtbox h1{
@@ -2187,7 +2187,7 @@ header h1 a img{
     width: 95%;
     margin: 0 auto;
     margin-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 30vw;
 }
 #life-technician_popup_hong .youtubebox iframe{
     width: 100%;
@@ -2219,7 +2219,7 @@ header h1 a img{
 }
 #moment_popup_park .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -2227,23 +2227,24 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 85vh;
     margin: auto;
     background: url(../image/popup/moment_popup_park.png) top center no-repeat;
     background-size: cover;
+    padding-bottom: 16vw;
 }
 #moment_popup_park .popbox::-webkit-scrollbar{
     display: none;
 }
 #moment_popup_park .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #moment_popup_park .header p{
@@ -2251,7 +2252,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -2260,7 +2261,7 @@ header h1 a img{
 }
 #moment_popup_park .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -2271,8 +2272,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
-    padding-bottom: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
 }
 #moment_popup_park .txtbox h1{
     color: #fff;
@@ -2385,7 +2386,7 @@ header h1 a img{
 #moment_popup_park .contentbox .productbox .imgbox{
     margin-right: 5vw;
     margin-top: 6vw;
-    margin-bottom: 5vw;
+    /* margin-bottom: 30vw; */
 }
 #moment_popup_park .contentbox .productbox .imgbox img{
     width: 30vw;
@@ -2414,7 +2415,7 @@ header h1 a img{
 }
 #moment_popup_kim .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -2422,23 +2423,24 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 85vh;
     margin: auto;
     background: url(../image/popup/moment_popup_kim.png) top center no-repeat;
     background-size: cover;
+    padding-bottom: 16vw;
 }
 #moment_popup_kim .popbox::-webkit-scrollbar{
     display: none;
 }
 #moment_popup_kim .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #moment_popup_kim .header p{
@@ -2446,7 +2448,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -2455,7 +2457,7 @@ header h1 a img{
 }
 #moment_popup_kim .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -2466,8 +2468,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
-    padding-bottom: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
 }
 #moment_popup_kim .txtbox h1{
     color: #fff;
@@ -2579,7 +2581,7 @@ header h1 a img{
 #moment_popup_kim .contentbox .productbox .imgbox{
     margin-right: 5vw;
     margin-top: 6vw;
-    margin-bottom: 5vw;
+    /* margin-bottom: 30vw; */
 }
 #moment_popup_kim .contentbox .productbox .imgbox img{
     width: 30vw;
@@ -2610,7 +2612,7 @@ header h1 a img{
 }
 #keyword_popup_1 .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -2618,7 +2620,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 95vh;
     margin: auto;
     background: #000
 }
@@ -2627,13 +2629,13 @@ header h1 a img{
 }
 #keyword_popup_1 .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #keyword_popup_1 .header p{
@@ -2641,7 +2643,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -2650,7 +2652,7 @@ header h1 a img{
 }
 #keyword_popup_1 .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -2661,7 +2663,7 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
     margin-bottom: 5vw;
 }
 #keyword_popup_1 .txtbox1 h1{
@@ -2950,7 +2952,7 @@ header h1 a img{
     color: rgba(255,255,255,0.5);
     font-weight: 100;
     font-size: 2.7vw;
-    padding-bottom: 10vw;
+    padding-bottom: 30vw;
 }
 /* ---------------------------keyword2_popup----------------------------- */
 #keyword_popup_2{
@@ -2976,7 +2978,7 @@ header h1 a img{
 }
 #keyword_popup_2 .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -2984,7 +2986,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 95vh;
     margin: auto;
     background: #000
 }
@@ -2993,13 +2995,13 @@ header h1 a img{
 }
 #keyword_popup_2 .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #keyword_popup_2 .header p{
@@ -3007,7 +3009,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -3016,7 +3018,7 @@ header h1 a img{
 }
 #keyword_popup_2 .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -3027,7 +3029,7 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
 }
 #keyword_popup_2 .txtbox1 h1{
     color: #fff;
@@ -3199,7 +3201,7 @@ header h1 a img{
 #keyword_popup_2 .contentbox1 .contxtbox3{
     width: 100%;
     color: #fff;
-    padding-bottom: 12vw;
+    padding-bottom: 40vw;
 }
 #keyword_popup_2 .contentbox1 .contxtbox3 img{
     width: 100vw;
@@ -3240,7 +3242,7 @@ header h1 a img{
 }
 #keyword_popup_3 .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -3248,7 +3250,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 95vh;
     margin: auto;
     background: #000
 }
@@ -3257,13 +3259,13 @@ header h1 a img{
 }
 #keyword_popup_3 .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #keyword_popup_3 .header p{
@@ -3271,7 +3273,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -3280,7 +3282,7 @@ header h1 a img{
 }
 #keyword_popup_3 .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -3291,7 +3293,7 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
 }
 #keyword_popup_3 .txtbox1 h1{
     color: #fff;
@@ -3622,7 +3624,7 @@ header h1 a img{
     width: 100%;
     color: #fff;
     margin-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 30vw;
 }
 #keyword_popup_3 .contentbox1 .contxtbox7 img{
     width: 100vw;
@@ -3677,7 +3679,7 @@ header h1 a img{
 }
 #keyword_popup_4 .popbox{
     position:relative;
-    /* top: 24px; */
+    top: -70px;
     right:0;
     bottom:0;
     left:0;
@@ -3685,7 +3687,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 70vh;
+    height: 95vh;
     margin: auto;
     background: #000
 }
@@ -3694,13 +3696,13 @@ header h1 a img{
 }
 #keyword_popup_4 .header{
     width: 85.5%;
-    height: 70px;
+    height: 50px;
     background: #434343;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 130px;
+    top: 60px;
     z-index: 50;
 }
 #keyword_popup_4 .header p{
@@ -3708,7 +3710,7 @@ header h1 a img{
     position: absolute;
     display: block;
     color: #fff;
-    font-size: 2vw;
+    font-size: 3.5vw;
     line-height: 60px;
     padding-left: 20px;
 }
@@ -3717,7 +3719,7 @@ header h1 a img{
 }
 #keyword_popup_4 .header img{
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     margin-right: 20px;
     margin-left: 160px;
     cursor: pointer;
@@ -3730,7 +3732,7 @@ header h1 a img{
     text-align: center;
     margin-top: 10vw;
     margin-bottom: 5vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
 }
 #keyword_popup_4 .txtbox1 h1{
     color: #fff;
@@ -3857,7 +3859,7 @@ header h1 a img{
 #keyword_popup_4 .contentbox2{
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 10vw;
+    padding-bottom: 40vw;
 }
 #keyword_popup_4 .contentbox2 .contxtbox1{
     width: 100%;
