@@ -16,7 +16,7 @@ $(function(){
         return i;
         }
         window.onload = function() {
-            imagePreload( './js/intro3_1.png' );
+            imagePreload( './js/intro4_2.png' );
     }
 
     var controller = new ScrollMagic.Controller();
@@ -28,10 +28,13 @@ $(function(){
     })
     .setPin("#pin1")
     .addTo(controller);
+    
 
     var tween = TweenMax.to('#title01', 100, {
         opacity: 0,
     });
+
+    
 
     var scene2 = new ScrollMagic.Scene({
         triggerElement: "#trigger1",
@@ -119,7 +122,7 @@ $(function(){
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         }, {
-        backgroundImage: 'url("./js/intro3_1.png")',
+        backgroundImage: 'url("./js/intro4_2.png")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         });
@@ -447,44 +450,44 @@ $(function(){
     subTitle[0].classList.add("activate");
     subDes[0].classList.add("activate");
     
-    prevButton.addEventListener("click", function(){
-        count--;
-        bgCount = ((count % slideAll.length) + slideAll.length) % slideAll.length;
+    // prevButton.addEventListener("click", function(){
+    //     count--;
+    //     bgCount = ((count % slideAll.length) + slideAll.length) % slideAll.length;
 
-        if(bgCount < 0){
-            bgCount = 1;
-        }
-        mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
+    //     if(bgCount < 0){
+    //         bgCount = 1;
+    //     }
+    //     mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
 
-        for(let i = 0; i < subDes.length; i++){
-            if(i == bgCount){
-                subDes[i].classList.add("activate");
-                subTitle[i].classList.add("activate");
-            } else {
-                subDes[i].classList.remove("activate");
-                subTitle[i].classList.remove("activate");
-            }
-        }
+    //     for(let i = 0; i < subDes.length; i++){
+    //         if(i == bgCount){
+    //             subDes[i].classList.add("activate");
+    //             subTitle[i].classList.add("activate");
+    //         } else {
+    //             subDes[i].classList.remove("activate");
+    //             subTitle[i].classList.remove("activate");
+    //         }
+    //     }
     
     
-    });
+    // });
 
-    nextButton.addEventListener("click", function(){
-        count++;
-        bgCount = count % slideAll.length;
-        mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
+    // nextButton.addEventListener("click", function(){
+    //     count++;
+    //     bgCount = count % slideAll.length;
+    //     mainBG.style.backgroundImage = `url('./js/sub-bg-${bgCount}.png')`;
 
-        for(let i = 0; i < subDes.length; i++){
-            if(i == bgCount){
-                subDes[i].classList.add("activate");
-                subTitle[i].classList.add("activate");
-            } else {
-                subDes[i].classList.remove("activate");
-                subTitle[i].classList.remove("activate");
-            }
-        }
+    //     for(let i = 0; i < subDes.length; i++){
+    //         if(i == bgCount){
+    //             subDes[i].classList.add("activate");
+    //             subTitle[i].classList.add("activate");
+    //         } else {
+    //             subDes[i].classList.remove("activate");
+    //             subTitle[i].classList.remove("activate");
+    //         }
+    //     }
     
-    });
+    // });
 
     const swiper8 = new Swiper("#section8 .mySwiper", {
         slidesPerView: 1,
@@ -607,45 +610,45 @@ $(function(){
     subTitle1[0].classList.add("activate");
     subDes1[0].classList.add("activate");
     
-    prevButton1.addEventListener("click", function(){
-        count1--;
-        bgCount1 = ((count1 % slideAll1.length) + slideAll1.length) % slideAll1.length;
+    // prevButton1.addEventListener("click", function(){
+    //     count1--;
+    //     bgCount1 = ((count1 % slideAll1.length) + slideAll1.length) % slideAll1.length;
 
-        if(bgCount1 < 0){
-            bgCount1 = 1;
-        }
-        mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
+    //     if(bgCount1 < 0){
+    //         bgCount1 = 1;
+    //     }
+    //     mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
 
-        for(let i = 0; i < subDes1.length; i++){
-            if(i == bgCount1){
-                subDes1[i].classList.add("activate");
-                subTitle1[i].classList.add("activate");
-            } else {
-                subDes1[i].classList.remove("activate");
-                subTitle1[i].classList.remove("activate");
-            }
-        }
-    });
-    nextButton1.addEventListener("click", function(){
-        count1++;
-        bgCount1 = count1 % slideAll1.length;
+    //     for(let i = 0; i < subDes1.length; i++){
+    //         if(i == bgCount1){
+    //             subDes1[i].classList.add("activate");
+    //             subTitle1[i].classList.add("activate");
+    //         } else {
+    //             subDes1[i].classList.remove("activate");
+    //             subTitle1[i].classList.remove("activate");
+    //         }
+    //     }
+    // });
+    // nextButton1.addEventListener("click", function(){
+    //     count1++;
+    //     bgCount1 = count1 % slideAll1.length;
 
-        if(bgCount1 < 0){
-            bgCount1 = 1;
-        }
+    //     if(bgCount1 < 0){
+    //         bgCount1 = 1;
+    //     }
 
-        mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
+    //     mainBG1.style.backgroundImage = `url('./js/sub10-bg-${bgCount1}.png')`;
 
-        for(let i = 0; i < subDes1.length; i++){
-            if(i == bgCount1){
-                subDes1[i].classList.add("activate");
-                subTitle1[i].classList.add("activate");
-            } else {
-                subDes1[i].classList.remove("activate");
-                subTitle1[i].classList.remove("activate");
-            }
-        }
+    //     for(let i = 0; i < subDes1.length; i++){
+    //         if(i == bgCount1){
+    //             subDes1[i].classList.add("activate");
+    //             subTitle1[i].classList.add("activate");
+    //         } else {
+    //             subDes1[i].classList.remove("activate");
+    //             subTitle1[i].classList.remove("activate");
+    //         }
+    //     }
     
-    });
+    // });
 
 });
