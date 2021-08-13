@@ -555,7 +555,7 @@ header h1 a img{
     height: 100%;
     top: -1vw;
     opacity: 0;
-    left: 7vw;
+    left: 8vw;
     z-index: 1;
     background: linear-gradient(-45deg, rgba(255,255,255,0.8), 20%, transparent);
     transition: 0.5s;
