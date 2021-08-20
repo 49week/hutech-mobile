@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -238,7 +240,7 @@ header h1 a img{
     letter-spacing: -2px;
     color: #fff;
     font-weight: 500;
-    padding-top: 100%;
+    padding-top: 65%;
     line-height: 1;
     position: relative;
     top: 5vw;
@@ -251,15 +253,15 @@ header h1 a img{
     color: #fff;
     font-weight: 300;
     position: relative;
-    top: 5vw;
+    top:5vw;
     opacity: 0;
 }
 #section2 p:nth-child(2){
-    padding: 50px 0 30px;
+    padding: 50px 0 15px;
     font-size: 3.5vw;
 }
 #section2 p:nth-child(3){
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     font-size: 3.5vw;
     letter-spacing: -1px;
 }
@@ -284,7 +286,7 @@ header h1 a img{
     text-align: center;
     margin: 0 auto;
     color: #fff;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 #section3 .titbox p{
     font-size: 4vw;
@@ -311,7 +313,7 @@ header h1 a img{
     color: #fff;
 }
 #section3 .txtbox p{
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: 300;
     position: relative;
     top: 5vw;
@@ -432,7 +434,7 @@ header h1 a img{
     background: linear-gradient(to left, #0c0c0c 30%, #1e1e1e);
 }
 #section3 .contentboxs .contentbox .cont1 h1{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 300;
     line-height: 2;
     position: relative;
@@ -440,11 +442,11 @@ header h1 a img{
     opacity: 0;
 }
 #section3 .contentboxs .contentbox .cont1 h1 span{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 500;
 }
 #section3 .contentboxs .contentbox .cont1 p{
-    font-size: 4vw;
+    font-size: 3.3vw;
     font-weight: 300;
     position: relative;
     top: 15px;
@@ -457,7 +459,7 @@ header h1 a img{
     background: linear-gradient(to right, #0c0c0c 30%, #1e1e1e);
 }
 #section3 .contentboxs .contentbox .cont2 h1{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 300;
     line-height: 2;
     position: relative;
@@ -465,11 +467,11 @@ header h1 a img{
     opacity: 0;
 }
 #section3 .contentboxs .contentbox .cont2 h1 span{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 500;
 }
 #section3 .contentboxs .contentbox .cont2 p{
-    font-size: 4vw;
+    font-size: 3.3vw;
     font-weight: 300;
     position: relative;
     top: 15px;
@@ -481,7 +483,7 @@ header h1 a img{
     background: linear-gradient(to left, #0c0c0c 30%, #1e1e1e);
 }
 #section3 .contentboxs .contentbox .cont3 h1{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 300;
     line-height: 2;
     position: relative;
@@ -489,11 +491,11 @@ header h1 a img{
     opacity: 0;
 }
 #section3 .contentboxs .contentbox .cont3 h1 span{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 500;
 }
 #section3 .contentboxs .contentbox .cont3 p{
-    font-size: 4vw;
+    font-size: 3.3vw;
     font-weight: 300;
     position: relative;
     top: 15px;
@@ -508,13 +510,13 @@ header h1 a img{
     position: relative;
     /* top: -5px; */
     overflow: hidden;
-    padding-bottom: 30%;
+    padding-bottom: 40px;
 }
 #section5 .txtbox{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 #section5 .txtbox p{
     position: relative;
@@ -531,17 +533,18 @@ header h1 a img{
     font-size: 4vw;
     color: #000;
     font-weight: 380;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     letter-spacing: -1px;
 }
 #section5 .txtbox h1{
-    font-size: 8vw;
-    padding-bottom: 50px;
+    font-size: 8.5vw;
+    padding-bottom: 30px;
     font-weight: bold;
     line-height: 1.2;
     position: relative;
     top: 15px;
     opacity: 0;
+    letter-spacing: -2px;
 }
 #section5 .slide-wrap {
     width: 100%;
@@ -585,17 +588,18 @@ header h1 a img{
     width: 66px;
     height: 10px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
+    justify-content: center;
     position: relative;
 }
 #section5 .swiper-pagination span{
     display: block;
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
     background-color: #000;
-    border-radius: 13px;
-    margin: 0 8px;
+    border-radius: 8px;
+    margin: 0 5px;
 }
 #section6{
     transition: 0.5s;
@@ -603,7 +607,7 @@ header h1 a img{
     height: 100%;
     background: url(../image/sub-bg-0.png) no-repeat;
     background-size: cover;
-    padding-bottom: 30%;
+    padding-bottom: 40px;
 }
 #section6 .sub-label{
     width: 100%;
@@ -616,17 +620,17 @@ header h1 a img{
     top: 15px;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 130px;
+    padding-top: 40px;
     opacity: 0;
 }
 
 #section6 .sub-op-des {
     transition: 0.5s;
     display: none;
-    font-size: 4vw;
+    font-size: 3.7vw;
     color: #fff;
     font-weight: 350;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: center;
     position: relative;
     top: 15px;
@@ -644,11 +648,12 @@ header h1 a img{
     color: #fff;
     font-weight: 500;
     line-height: 1.2;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     position: relative;
     top: 15px;
     text-align: center;
     opacity: 0;
+    letter-spacing: -2px;
 }
 
 #section6 .sub-op-title.activate {
@@ -685,6 +690,9 @@ header h1 a img{
 #section6 .mySwiper02 {
     width: 100%;
     height: 100vw;
+    padding-top: 60vw;
+    position: absolute;
+    bottom: 0;
 }
 
 #section6 .mySwiper02 .swiper-slide iframe{
@@ -694,7 +702,7 @@ header h1 a img{
 #section6 .mySwiper02 .swiper-slide p{
     color: rgba(255,255,255,0.6);
     text-align: center;
-    line-height: 26vw;
+    line-height: 20vw;
     font-size: 4vw;
 }
 #section6 .swiper-button-prev-02{
@@ -715,15 +723,15 @@ header h1 a img{
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: -100vw;
+    bottom: -91vw;
 }
 #section6 .swiper-pagination span{
     display: block;
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
     background-color: #fff;
-    border-radius: 13px;
-    margin: 0 8px;
+    border-radius: 8px;
+    margin: 0 5px;
 }
 #section7{
     width: 100%;
@@ -731,29 +739,30 @@ header h1 a img{
     background-color: #fff;
     position: relative;
     overflow: hidden;
-    padding-bottom: 10%;
+    padding-bottom: 40px;
 }
 #section7 .txtbox{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 #section7 .txtbox p:nth-child(1){
     font-size: 4vw;
     color: #b18269;
     font-weight: bold;
-    padding-bottom: 3vw;
+    padding-bottom: 20px;
 }
 #section7 .txtbox h1{
     font-size: 8vw;
     color: #000;
     font-weight: bold;
     line-height: 1.2;
-    padding-bottom: 3vw;
+    padding-bottom: 10px;
     position: relative;
     top: 15px;
     opacity: 0;
+    letter-spacing: -2px;
 }
 #section7 .txtbox p{
     position: relative;
@@ -764,7 +773,7 @@ header h1 a img{
     font-size: 4vw;
     color: #000;
     font-weight: 400;
-    padding-bottom: 10vw;
+    padding-bottom: 30px;
 }
 #section7 .container{
     width: 100%;
@@ -773,13 +782,14 @@ header h1 a img{
 }
 #section7 .contentbox1{
     width: 100%;
-    height: 30vw;
+    height: 170px;
     background: url(../image/section6_1.png) center center no-repeat;
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
-#section7 .contentbox1 .keyword{
+#section7 .contcontentboxs .keyword{
     width: 25%;
     height: 4vw;
     margin: 0 auto;
@@ -787,28 +797,28 @@ header h1 a img{
     border-radius: 130px;
     position: relative;
     top: 15px;
-
 }
-#section7 .contentbox1 .keyword>p{
+#section7 .contcontentboxs .keyword>p{
     line-height: 4vw;
     text-align: center;
     color: #fff;
     font-size: 3vw;
 }
-#section7 .contentbox1 h1{
+#section7 .contcontentboxs h1{
     color: #fff;
     text-align: center;
     font-size: 6vw;
     font-weight: 500;
+    letter-spacing: -1.5px;
 }
-#section7 .contentbox1>p{
+#section7 .contcontentboxs>p{
     color: #fff;
     text-align: center;
     padding-top: 30px;
     font-weight: 300;
     font-size: 3vw;
 }
-#section7 .contentbox1 .btn{
+#section7 .contcontentboxs .btn{
     width: 33%;
     height: 15%;
     border: 1px solid #fff;
@@ -816,23 +826,24 @@ header h1 a img{
     cursor: pointer;
     margin-top: 5px;
 }
-#section7 .contentbox1 .btn p{
+#section7 .contcontentboxs .btn p{
     color: #fff;
     text-align: center;
     font-size: 3vw;
-    font-weight: 360;
-    line-height: 5vw;
+    font-weight: 700;
+    line-height: 6vw;
 }
 
 #section7 .contentbox2{
     width: 100%;
-    height: 30vw;
+    height: 170px;
     background: url(../image/section6_2.png) center center no-repeat;
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
-#section7 .contentbox2 .keyword{
+/* #section7 .contentbox2 .keyword{
     width: 25%;
     height: 4vw;
     margin: 0 auto;
@@ -874,17 +885,18 @@ header h1 a img{
     font-size: 2.5vw;
     font-weight: 360;
     line-height: 4.5vw;
-}
+} */
 
 #section7 .contentbox3{
     width: 100%;
-    height: 30vw;
+    height: 170px;
     background: url(../image/section6_3.png) center center no-repeat;
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
-#section7 .contentbox3 .keyword{
+/* #section7 .contentbox3 .keyword{
     width: 25%;
     height: 4vw;
     margin: 0 auto;
@@ -927,17 +939,18 @@ header h1 a img{
     font-size: 2.5vw;
     font-weight: 360;
     line-height: 4.5vw;
-}
+} */
 
 #section7 .contentbox4{
     width: 100%;
-    height: 30vw;
+    height: 170px;
     background: url(../image/section6_4.png) center center no-repeat;
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
-#section7 .contentbox4 .keyword{
+/* #section7 .contentbox4 .keyword{
     width: 25%;
     height: 4vw;
     margin: 0 auto;
@@ -980,7 +993,7 @@ header h1 a img{
     font-size: 2vw;
     font-weight: 360;
     line-height: 4.5vw;
-}
+} */
 
 #section7 .contentbox1 .btn:hover,
 #section7 .contentbox2 .btn:hover,
@@ -994,8 +1007,9 @@ header h1 a img{
 #section7 .contentbox3 .btn:hover p,
 #section7 .contentbox4 .btn:hover p{
     color: #000;
+    font-weight: bold;
 }
-#section7 .contcontentboxs{
+/* #section7 .contcontentboxs{
     height: 200px;
     width: 100%;
     position: relative;
@@ -1046,7 +1060,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 360;
     line-height: 9vw;
-}
+} */
 
 #section7 .contcontentboxs .btn{
     margin-top: 13px;
@@ -1075,7 +1089,7 @@ header h1 a img{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 #section8 .txtbox1 p,
 #section8 .txtbox1 h1,
@@ -1088,14 +1102,14 @@ header h1 a img{
     font-size: 4vw;
     color: #b18269;
     font-weight: 500;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 #section8 .txtbox1 h1{
     font-size: 7vw;
     color: #000;
     font-weight: bold;
     line-height: 1.2;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 #section8 .txtbox1 div{
     width: 90%;
@@ -1140,33 +1154,34 @@ header h1 a img{
 #section8 .swiper-slide .contentbox h1{
     text-align: center;
     font-size: 5vw;
+    font-weight: 700;
     padding-top: 40px;
 }
 #section8 .swiper-slide .contentbox p{
     text-align: center;
     font-size: 4vw;
     color: #b18269;
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 5px;
 }
 #section8 .swiper-slide .contentbox1>img {
-    width: 70vw;
+    width: 90%;
     position: absolute;
     right: 5%;
     top: 30%;
     z-index: 10;
 }
 #section8 .swiper-slide .contentbox2>img {
-    width: 75vw;
+    width: 78%;
     position: absolute;
-    right: 2%;
+    right: 10%;
     top: 30%;
     z-index: 10;
 }
 #section8 .swiper-slide .contentbox3>img {
-    width: 65vw;
+    width: 85%;
     position: absolute;
-    right: 8%;
+    right: 5%;
     top: 30%;
     z-index: 10;
 }
@@ -1195,10 +1210,10 @@ header h1 a img{
 }
 #section8 .swiper-pagination span{
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #000;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 0 5px;
 }
 
@@ -1206,7 +1221,9 @@ header h1 a img{
     width: 100%;
     height: 100%;
     background-color: #e9e9e9;
-    padding-bottom: 20%;
+    padding-bottom: 40px;
+    position: relative;
+    top: -5px !important;
 }
 #section9 .txtbox2{
     width: 90%;
@@ -1264,33 +1281,34 @@ header h1 a img{
 #section9 .swiper-slide .contentbox h1{
     text-align: center;
     font-size: 5vw;
+    font-weight: 700;
     padding-top: 40px;
 }
 #section9 .swiper-slide .contentbox p{
     text-align: center;
     font-size: 4vw;
     color: #b18269;
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 5px;
 }
 #section9 .swiper-slide .contentbox1>img {
-    width: 70vw;
+    width: 72%;
     position: absolute;
-    right: 5%;
+    right: 13%;
     top: 30%;
     z-index: 10;
 }
 #section9 .swiper-slide .contentbox2>img {
-    width: 60vw;
+    width: 90%;
     position: absolute;
-    right: 12%;
+    right: 9%;
     top: 30%;
     z-index: 10;
 }
 #section9 .swiper-slide .contentbox3>img {
-    width: 70vw;
+    width: 83%;
     position: absolute;
-    right: 12%;
+    right: 7%;
     top: 30%;
     z-index: 10;
 }
@@ -1319,10 +1337,10 @@ header h1 a img{
 }
 #section9 .swiper-pagination span{
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #000;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 0 5px;
 }
 #section10{
@@ -1331,13 +1349,13 @@ header h1 a img{
     position: relative;
     overflow: hidden;
     background: #fff;
-    padding-bottom: 20%;
+    padding-bottom: 40px;
 }
 #section10 .txtbox{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 #section10 .txtbox p,
 #section10 .txtbox h1{
@@ -1355,12 +1373,12 @@ header h1 a img{
     font-size: 4vw;
     color: #000;
     font-weight: 400;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     letter-spacing: -1px;
 }
 #section10 .txtbox h1{
     font-size: 8vw;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-weight: bold;
     line-height: 1.2;
 }
@@ -1390,7 +1408,7 @@ header h1 a img{
     display: none;
     width: 90%;
     height: 100%;
-    top: -20.5px;
+    top: -24.5px;
     margin-bottom: -50px;
 }
 #section10 .swiper-slide:hover img{
@@ -1403,17 +1421,18 @@ header h1 a img{
     width: 66px;
     height: 10px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
+    justify-content: center;
     position: relative;
 }
 #section10 .swiper-pagination span{
     display: block;
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
     background-color: #000;
-    border-radius: 13px;
-    margin: 0 8px;
+    border-radius: 8px;
+    margin: 0 5px;
 }
 #section11{
     width: 100%;
@@ -1422,13 +1441,13 @@ header h1 a img{
     background-size: cover;
     position: relative;
     overflow: hidden;
-    padding-bottom: 30%;
+    padding-bottom: 50px;
 }
 #section11 .txtbox{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 #section11 .txtbox p,
 #section11 .txtbox h1{
@@ -1446,11 +1465,11 @@ header h1 a img{
     font-size: 4vw;
     color: #fff;
     font-weight: 300;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     letter-spacing: -1px;
 }
 #section11 .txtbox h1{
-    font-size: 7vw;
+    font-size: 8vw;
     color: #fff;
     padding-bottom: 20px;
     font-weight: 500;
@@ -1485,7 +1504,7 @@ header h1 a img{
     color: #fff;
     text-align: center;
     font-size: 4vw;
-    font-weight: 360;
+    font-weight: 500;
     line-height: 10vw;
 }
 
@@ -1502,7 +1521,7 @@ header h1 a img{
     height: 100%;
     position: relative;
     top: -5px;
-    padding-bottom: 40%;
+    padding-bottom: 30%;
 }
 #section12 .sub-label{
     width: 100%;
@@ -1516,7 +1535,7 @@ header h1 a img{
     opacity: 0;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 20%;
+    padding-top: 40px;
 }
 
 #section12 .sub-op-des {
@@ -1543,7 +1562,7 @@ header h1 a img{
     color: #fff;
     font-weight: 500;
     line-height: 1.2;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     position: relative;
     top: 15px;
     text-align: center;
@@ -1618,7 +1637,7 @@ header h1 a img{
 #section12 .mySwiper02 .swiper-slide .contbox2 img{
     width: 65vw;
     position: relative;
-    left: 0;
+    left: 7vw;
     top: 2vw;
 }
 #section12 .mySwiper02 .swiper-slide .contbox .btn{
@@ -1627,7 +1646,7 @@ header h1 a img{
     background: #000;
     margin: 0 auto;
     position: relative;
-    bottom: 0;
+    bottom: 17px;
 }
 #section12 .mySwiper02 .swiper-slide .contbox2 .btn{
     width: 50%;
@@ -1635,7 +1654,7 @@ header h1 a img{
     background: #000;
     margin: 0 auto;
     position: relative;
-    bottom: 0vw;
+    bottom: 0;
 }
 #section12 .mySwiper02 .swiper-slide .contbox .btn a{
     color: #fff;
@@ -1644,6 +1663,7 @@ header h1 a img{
     line-height: 9vw;
     font-size: 4vw;
     text-align: center;
+    font-weight: 700;
 }
 #section12 .swiper-button-prev-02 {
     left: 2vw;
@@ -1670,11 +1690,11 @@ header h1 a img{
 }
 #section12 .swiper-pagination span{
     display: block;
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
     background-color: #fff;
-    border-radius: 13px;
-    margin: 0 8px;
+    border-radius: 8px;
+    margin: 0 5px;
 }
 #section13{
     width: 100%;
@@ -1684,7 +1704,7 @@ header h1 a img{
 }
 #section13 .top{
     width: 100%;
-    height: 700px;
+    height: 550px;
     position: relative;
     background: url(../image/section11_bg.png) center center no-repeat;
     background-size: cover;
@@ -1692,11 +1712,11 @@ header h1 a img{
 #section13 .top p:nth-child(1){
     color: #fff;
     text-align: center;
-    font-size: 4vw;
-    line-height: 2.2;
+    font-size: 5vw;
+    line-height: 2;
     font-weight: 300;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 0;
     right: 0;
     margin: auto;
@@ -1706,7 +1726,7 @@ header h1 a img{
     border: 1px solid #fff;
     margin: 30px auto;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 0;
     right: 0;
     margin: auto;
@@ -1834,9 +1854,9 @@ header h1 a img{
     overflow-y:scroll;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
-    background: url(../image/popup/life_technician_don.png) center top no-repeat;
+    background: url(../image/popup/life_technician_don.png) center -5% no-repeat;
     background-size: cover;
 }
 #life-technician_popup_soungdon .popbox::-webkit-scrollbar{
@@ -1844,7 +1864,7 @@ header h1 a img{
 }
 #life-technician_popup_soungdon .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -1878,18 +1898,17 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-top: 90px;
 }
 #life-technician_popup_soungdon .txtbox h1{
     color: #fff;
     font-weight: 300;
-    font-size: 7vw;
+    font-size: 7.5vw;
 }
 #life-technician_popup_soungdon .txtbox h1>span{
     color: #fff;
     font-weight: 600;
-    font-size: 8vw;
+    font-size: 7.5vw;
 }
 #life-technician_popup_soungdon .txtbox>span{
     display: block;
@@ -1902,14 +1921,13 @@ header h1 a img{
 }
 #life-technician_popup_soungdon .txtbox>p{
     color: rgba(255,255,255,0.4);
-    font-size: 3.3vw;
-    font-weight: 100;
+    font-size: 3vw;
+    font-weight: 500;
+    font-family: 'Noto Serif KR', serif;
 }
-#life-technician_popup_soungdon .arrow{
+/* #life-technician_popup_soungdon .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex; */
-    /* justify-content: space-between; */
     position: fixed;
     z-index: 50;
 }
@@ -1923,73 +1941,73 @@ header h1 a img{
 #life-technician_popup_soungdon .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #life-technician_popup_soungdon .contentbox1{
     width: 90%;
     background: #fff;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 50px 10vw;
     box-sizing: border-box;
     margin-top: 83vw;
     word-break: keep-all;
 }
 #life-technician_popup_soungdon .contentbox1 h1{
-    font-size: 6vw;
+    font-size: 5vw;
     margin-bottom: 10px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
 }
 #life-technician_popup_soungdon .contentbox1 p{
     color: #666;
     font-size: 3vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
+    width: 100%;
 }
 #life-technician_popup_soungdon .contentbox2{
     width: 90%;
     background: #fff;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 50px 10vw;
     box-sizing: border-box;
     margin-top: 10vw;
     word-break: keep-all;
 }
 #life-technician_popup_soungdon .contentbox2 h1{
-    font-size: 6vw;
+    font-size: 5vw;
     margin-bottom: 10px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
 }
 #life-technician_popup_soungdon .contentbox2 p{
     color: #666;
     font-size: 3vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
+    width: 100%;
 }
 #life-technician_popup_soungdon .contentbox3{
     width: 90%;
     background: #fff;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 50px 10vw;
     box-sizing: border-box;
     margin-top: 10vw;
     word-break: keep-all;
 }
 #life-technician_popup_soungdon .contentbox3 h1{
-    font-size: 6vw;
+    font-size: 5vw;
     margin-bottom: 10px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
     line-height: 1.1;
 }
 #life-technician_popup_soungdon .contentbox3 p{
     color: #666;
     font-size: 3vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
+    width: 100%;
 }
 #life-technician_popup_soungdon .youtubebox{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 10vw;
-    padding-bottom: 30vw;
+    padding-bottom: 60vw;
 }
 #life-technician_popup_soungdon .youtubebox iframe{
     width: 100%;
@@ -2028,7 +2046,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     background: url(../image/popup/life_technician_hong.png) center top no-repeat;
     background-size: cover;
@@ -2038,7 +2056,7 @@ header h1 a img{
 }
 #life-technician_popup_hong .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -2072,24 +2090,24 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
-    padding-bottom: 20vw;
+    padding-top: 90px;
 }
 #life-technician_popup_hong .txtbox h1{
     color: #fff;
     font-weight: 300;
-    font-size: 6vw;
+    font-size: 7.3vw;
     text-align: left;
-    margin-left: 13.5vw;
+    margin-left: 7vw;
+    line-height: 1.2;
 }
 #life-technician_popup_hong .txtbox h1>span{
     color: #fff;
     font-weight: 600;
-    font-size: 7.3vw;
+    font-size: 7.5vw;
 }
 #life-technician_popup_hong .txtbox>span{
     display: block;
-    width: 64%;
+    width: 79%;
     height: 1px;
     margin: 0 auto;
     margin-top: 4vw;
@@ -2100,15 +2118,17 @@ header h1 a img{
     color: rgba(255,255,255,0.4);
     font-size: 3vw;
     font-weight: 100;
-    letter-spacing: 1vw;
+    letter-spacing: 1.7vw;
+    font-weight: 500;
+    font-family: 'Noto Serif KR', serif;
 }
-#life-technician_popup_hong .arrow{
+/* #life-technician_popup_hong .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
-    /* left: 7.5vw; */
+    left: 7.5vw;
 }
 #life-technician_popup_hong .arrow img{
     width: 2%;
@@ -2120,74 +2140,74 @@ header h1 a img{
 #life-technician_popup_hong .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #life-technician_popup_hong .contentbox1{
     width: 90%;
     background: #fff;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 50px 10vw;
     box-sizing: border-box;
     margin-top: 83vw;
     word-break: keep-all;
 }
 #life-technician_popup_hong .contentbox1 h1{
-    font-size: 6vw;
+    font-size: 5vw;
     margin-bottom: 10px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
     line-height: 1.1;
 }
 #life-technician_popup_hong .contentbox1 p{
     color: #666;
     font-size: 3vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
+    width: 100%;
 }
 #life-technician_popup_hong .contentbox2{
     width: 90%;
     background: #fff;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 50px 10vw;
     box-sizing: border-box;
     margin-top: 10vw;
     word-break: keep-all;
 }
 #life-technician_popup_hong .contentbox2 h1{
-    font-size: 5.5vw;
+    font-size: 5vw;
     margin-bottom: 10px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
 }
 #life-technician_popup_hong .contentbox2 p{
     color: #666;
     font-size: 3vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
+    width: 100%;
 }
 #life-technician_popup_hong .contentbox3{
     width: 90%;
     background: #fff;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 50px 10vw;
     box-sizing: border-box;
     margin-top: 10vw;
     word-break: keep-all;
 }
 #life-technician_popup_hong .contentbox3 h1{
-    font-size: 6vw;
+    font-size: 5vw;
     margin-bottom: 10px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
     line-height: 1.1;
 }
 #life-technician_popup_hong .contentbox3 p{
     color: #666;
     font-size: 3vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
+    width: 100%;
 }
 #life-technician_popup_hong .youtubebox{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 10vw;
-    padding-bottom: 30vw;
+    padding-bottom: 60vw;
 }
 #life-technician_popup_hong .youtubebox iframe{
     width: 100%;
@@ -2227,18 +2247,19 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 85vh;
+    height: 100vh;
     margin: auto;
     background: url(../image/popup/moment_popup_park.png) top center no-repeat;
     background-size: cover;
     padding-bottom: 16vw;
+    
 }
 #moment_popup_park .popbox::-webkit-scrollbar{
     display: none;
 }
 #moment_popup_park .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -2272,14 +2293,15 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
-    padding-bottom: 5vw;
+    padding-top: 90px;
 }
 #moment_popup_park .txtbox h1{
     color: #fff;
     font-weight: 300;
     font-size: 8vw;
     text-align: center;
+    font-family: 'Noto Serif KR', serif;
+    letter-spacing: -1px;
 }
 #moment_popup_park .txtbox h1>span{
     color: #fff;
@@ -2288,7 +2310,7 @@ header h1 a img{
 }
 #moment_popup_park .txtbox>span{
     display: block;
-    width: 72%;
+    width: 80%;
     height: 1px;
     margin: 0 auto;
     margin-top: 4vw;
@@ -2299,15 +2321,16 @@ header h1 a img{
     color: rgba(255,255,255,0.4);
     font-size: 3.2vw;
     font-weight: 100;
+    font-family: 'Noto Serif KR', serif;
 }
-#moment_popup_park .arrow{
+/* #moment_popup_park .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     z-index: 50;
-    /* left: 7.5vw; */
+    left: 7.5vw;
 }
 #moment_popup_park .arrow img{
     width: 2%;
@@ -2319,15 +2342,15 @@ header h1 a img{
 #moment_popup_park .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #moment_popup_park .contentbox{
     width: 90%;
     background: #fff;
     margin: 0 auto;
     padding: 60px 20px 20px;
     box-sizing: border-box;
-    margin-top: 11vw;
-    margin-bottom: 4vw;
+    margin-top: 20vw;
+    margin-bottom: 60vw;
 }
 #moment_popup_park .contentbox .contxtbox{
     word-break: keep-all;
@@ -2350,19 +2373,22 @@ header h1 a img{
     line-height: 1.3;
 }
 #moment_popup_park .contentbox .contxtbox:nth-child(4){
-    padding-bottom: 10vw;
+    padding-bottom: 40px;
 }
 #moment_popup_park .contentbox .productbox{
     border-top: 1px solid #ebebeb;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-top: 40px;
+    padding-bottom: 30px;
+    /* margin-bottom: 60vw; */
 }
 #moment_popup_park .contentbox .productbox .txtbox_park{
     text-align: left;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    /* margin-top: 5vw;
+    margin-bottom: 5vw; */
 }
 #moment_popup_park .contentbox .productbox .txtbox_park h1{
     color: #b18269;
@@ -2384,8 +2410,8 @@ header h1 a img{
     margin-left: 5vw;
 }
 #moment_popup_park .contentbox .productbox .imgbox{
-    margin-right: 5vw;
-    margin-top: 6vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
     /* margin-bottom: 30vw; */
 }
 #moment_popup_park .contentbox .productbox .imgbox img{
@@ -2423,7 +2449,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 85vh;
+    height: 100vh;
     margin: auto;
     background: url(../image/popup/moment_popup_kim.png) top center no-repeat;
     background-size: cover;
@@ -2434,7 +2460,7 @@ header h1 a img{
 }
 #moment_popup_kim .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -2468,14 +2494,15 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
-    padding-bottom: 5vw;
+    padding-top: 90px;
 }
 #moment_popup_kim .txtbox h1{
     color: #fff;
     font-weight: 300;
     font-size: 7vw;
     text-align: center;
+    font-family: 'Noto Serif KR', serif;
+    letter-spacing: -1px;
 }
 #moment_popup_kim .txtbox h1>span{
     color: #fff;
@@ -2484,7 +2511,7 @@ header h1 a img{
 }
 #moment_popup_kim .txtbox>span{
     display: block;
-    width: 72%;
+    width: 80%;
     height: 1px;
     margin: 0 auto;
     margin-top: 4vw;
@@ -2495,14 +2522,15 @@ header h1 a img{
     color: rgba(255,255,255,0.4);
     font-size: 3.2vw;
     font-weight: 100;
+    font-family: 'Noto Serif KR', serif;
 }
-#moment_popup_kim .arrow{
+/* #moment_popup_kim .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
-    /* left: 7.5vw; */
+    left: 7.5vw;
 }
 #moment_popup_kim .arrow img{
     width: 2%;
@@ -2514,22 +2542,22 @@ header h1 a img{
 #moment_popup_kim .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #moment_popup_kim .contentbox{
     width: 90%;
     background: #fff;
     margin: 0 auto;
     padding: 60px 20px 20px;
     box-sizing: border-box;
-    margin-top: 11vw;
-    margin-bottom: 4vw;
+    margin-top: 20vw;
+    margin-bottom: 60vw;
 }
 #moment_popup_kim .contentbox .contxtbox{
     word-break: keep-all;
     margin-bottom: 3vw;
 }
 #moment_popup_kim .contentbox .contxtbox h1{
-    font-size: 4vw;
+    font-size: 3.8vw;
     margin-bottom: 10px;
     line-height: 1.2;
     font-weight: 700;
@@ -2545,19 +2573,20 @@ header h1 a img{
     line-height: 1.3;
 }
 #moment_popup_kim .contentbox .contxtbox:nth-child(4){
-    padding-bottom: 10vw;
+    padding-bottom: 40px;
 }
 #moment_popup_kim .contentbox .productbox{
     border-top: 1px solid #ebebeb;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 #moment_popup_kim .contentbox .productbox .txtbox_kim{
     text-align: left;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    /* margin-top: 5vw;
+    margin-bottom: 5vw; */
 }
 #moment_popup_kim .contentbox .productbox .txtbox_kim h1{
     color: #b18269;
@@ -2579,8 +2608,8 @@ header h1 a img{
     margin-left: 5vw;
 }
 #moment_popup_kim .contentbox .productbox .imgbox{
-    margin-right: 5vw;
-    margin-top: 6vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
     /* margin-bottom: 30vw; */
 }
 #moment_popup_kim .contentbox .productbox .imgbox img{
@@ -2620,7 +2649,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     background: #000
 }
@@ -2629,7 +2658,7 @@ header h1 a img{
 }
 #keyword_popup_1 .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -2663,8 +2692,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
-    margin-bottom: 5vw;
+    padding-top: 90px;
+    margin-bottom: 30px;
 }
 #keyword_popup_1 .txtbox1 h1{
     color: #fff;
@@ -2692,14 +2721,14 @@ header h1 a img{
     font-size: 3.2vw;
     font-weight: 100;
 }
-#keyword_popup_1 .arrow{
+/* #keyword_popup_1 .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 50%;
-    /* left: 7.5vw; */
+    left: 7.5vw;
     z-index: 30;
 }
 #keyword_popup_1 .arrow img{
@@ -2712,7 +2741,7 @@ header h1 a img{
 #keyword_popup_1 .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #keyword_popup_1 .contentbox1{
     width: 90%;
     margin: 0 auto;
@@ -2725,17 +2754,18 @@ header h1 a img{
     width: 80%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 5vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_1 .contentbox1 .contxtbox1 p:nth-child(2){
-    text-align: center;
-    font-size: 4.5vw;
+    text-align: left;
+    font-size: 4vw;
     font-weight: 600;
     margin: 3vw 0;
+    margin-left: 2vw;
 }
 #keyword_popup_1 .contentbox1 .contxtbox1 p:nth-child(3){
     text-align: left;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 300;
     margin-left: 2vw;
 }
@@ -2745,32 +2775,32 @@ header h1 a img{
 #keyword_popup_1 .bwarrow img{
     width: 2vw;
     display: block;
-    margin: 10vw auto;
+    margin: 30px auto;
 }
 #keyword_popup_1 .contentbox1 .contxtbox2{
     width: 100%;
     color: #fff;
 }
 #keyword_popup_1 .contentbox1 .contxtbox2 img{
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 #keyword_popup_1 .contentbox1 .contxtbox2 p:nth-child(2){
     text-align: left;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-weight: 600;
-    margin: 4vw 0;
-    margin-left: 3vw;
+    margin: 30px 0 10px 0;
+    margin-left: 2vw;
 }
 #keyword_popup_1 .contentbox1 .contxtbox2 p:nth-child(3){
     text-align: left;
     font-size: 3.5vw;
     font-weight: 300;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 #keyword_popup_1 .contentbox1 .contxtbox2 ul{
-    margin: 4vw 4vw 0;
+    margin: 4vw 2vw 0;
 }
 #keyword_popup_1 .contentbox1 .contxtbox2 ul li{
     font-size: 2.5vw;
@@ -2794,23 +2824,23 @@ header h1 a img{
 }
 #keyword_popup_1 .contentbox1 .contxtbox3 p:nth-child(2){
     text-align: left;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-weight: 600;
-    margin: 4vw 0;
-    margin-left: 3vw;
+    margin: 30px 0 10px 0;
+    margin-left: 2vw;
 }
 #keyword_popup_1 .contentbox1 .contxtbox3 p:nth-child(3){
     text-align: left;
     font-size: 3.5vw;
     font-weight: 300;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 #keyword_popup_1 .line{
     display: block;
     width: 100vw;
     height: 1px;
     background-color: rgba(255,255,255,0.5);
-    margin: 15vw 0;
+    margin: 60px 0;
     position: relative;
     left: -10vw;
 }
@@ -2819,7 +2849,7 @@ header h1 a img{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 16vw;
+    /* margin-top: 16vw; */
 }
 #keyword_popup_1 .txtbox2 h1{
     color: #fff;
@@ -2853,25 +2883,29 @@ header h1 a img{
     color: #fff;
 }
 #keyword_popup_1 .contentbox2 .contxtbox1 img{
-    width: 80%;
+    width: 100vw;
     display: block;
     margin: 0 auto;
+    position: relative;
+    left: -13vw;
+    top: 0;
 }
 #keyword_popup_1 .contentbox2 .contxtbox1 p{
     text-align: left;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     font-weight: 300;
-    margin: 3vw 0;
-    margin-left: 3vw;
+    margin: 10px 0 30px 0;
+    margin-left: 2vw;
 }
 
 #keyword_popup_1 .contentbox2 .contxtbox2{
     width: 100%;
     color: #fff;
+    margin-bottom: 30px;
 }
 #keyword_popup_1 .contentbox2 .contxtbox2 p{
     text-align: center;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     font-weight: 300;
     margin: 3vw 0;
 }
@@ -2889,7 +2923,7 @@ header h1 a img{
     margin: 4vw 0;
 }
 #keyword_popup_1 .contentbox2 .contxtbox2 .box{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     border: 1px solid #fff;
 }
@@ -2902,14 +2936,14 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 300;
     margin: 5vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 #keyword_popup_1 .txtbox3{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 16vw;
+    /* margin-top: 16vw; */
 }
 #keyword_popup_1 .txtbox3 h1{
     color: #fff;
@@ -2917,7 +2951,7 @@ header h1 a img{
     font-size: 6.5vw;
     text-align: center;
     line-height: 1.2;
-    margin: 2vw 0;
+    margin: 2vw 0 0;
 }
 #keyword_popup_1 .txtbox3>p{
     color: #b18269;
@@ -2934,25 +2968,26 @@ header h1 a img{
     color: #fff;
 }
 #keyword_popup_1 .contentbox3 .contxtbox1 img{
-    width: 80%;
+    width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 #keyword_popup_1 .contentbox3 .contxtbox1 p{
     text-align: left;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     font-weight: 300;
     margin: 7vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 #keyword_popup_1 .contentbox3 .contxtbox1 p:nth-child(2){
     font-weight: 100;
+    font-family: 'Noto Serif KR', serif;
 }
 #keyword_popup_1 .contentbox3 .contxtbox1 p:nth-child(4){
     color: rgba(255,255,255,0.5);
     font-weight: 100;
     font-size: 2.7vw;
-    padding-bottom: 30vw;
+    padding-bottom: 60vw;
 }
 /* ---------------------------keyword2_popup----------------------------- */
 #keyword_popup_2{
@@ -2986,7 +3021,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     background: #000
 }
@@ -2995,7 +3030,7 @@ header h1 a img{
 }
 #keyword_popup_2 .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -3029,7 +3064,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
+    padding-top: 90px;
+    margin-bottom: 30px;
 }
 #keyword_popup_2 .txtbox1 h1{
     color: #fff;
@@ -3037,6 +3073,7 @@ header h1 a img{
     font-size: 7vw;
     text-align: center;
     line-height: 1.2;
+    margin-bottom: 30px;
 }
 #keyword_popup_2 .txtbox1 h1>span{
     color: #fff;
@@ -3064,14 +3101,14 @@ header h1 a img{
     text-align: left;
     margin-top: 5vw;
 }
-#keyword_popup_2 .arrow{
+/* #keyword_popup_2 .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 50%;
-    /* left: 7.5vw; */
+    left: 7.5vw;
     z-index: 30;
 }
 #keyword_popup_2 .arrow img{
@@ -3084,7 +3121,7 @@ header h1 a img{
 #keyword_popup_2 .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #keyword_popup_2 .contentbox1{
     width: 90%;
     margin: 0 auto;
@@ -3099,13 +3136,14 @@ header h1 a img{
     margin: 0 auto;
     position: relative;
     left: -7vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_2 .contentbox1 .contxtbox1 p:nth-child(2){
     text-align: left;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-weight: 600;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
 }
 #keyword_popup_2 .contentbox1 .contxtbox1 p:nth-child(3){
@@ -3113,15 +3151,15 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 300;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     color: #b18269;
 }
 #keyword_popup_2 .contentbox1 .contxtbox1 p:nth-child(4){
     text-align: left;
     font-size: 3.5vw;
     font-weight: 300;
-    margin-left: 3vw;
-    margin-bottom: 8vw;
+    margin-left: 2vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_2 .contentbox1 .contxtbox2{
     width: 100%;
@@ -3134,28 +3172,29 @@ header h1 a img{
 }
 #keyword_popup_2 .contentbox1 .contxtbox2 p:nth-child(2){
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: 400;
-    margin: 4vw 0;
-    margin-left: 3vw;
+    margin: 30px 0;
+    /* margin-left: 3vw; */
 }
 #keyword_popup_2 .contentbox1 .contxtbox2 img:nth-child(3){
     width: 80%;
     margin-top: -25vw;
+    margin-bottom: 7vw;
 }
 #keyword_popup_2 .contentbox1 .contxtbox2 p:nth-child(5){
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 400;
-    margin: 5vw 0;
-    margin-left: 3vw;
+    margin: 30px 0;
+    /* margin-left: 3vw; */
 }
 #keyword_popup_2 .contentbox1 .contxtbox2 p:nth-child(6){
     text-align: left;
     font-size: 3.5vw;
     font-weight: 200;
     margin: 6vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 #keyword_popup_2 .contentbox1 .contxtbox2 iframe{
     width: 100%;
@@ -3166,7 +3205,7 @@ header h1 a img{
     width: 120vw;
     height: 1px;
     background-color: rgba(255,255,255,0.5);
-    margin: 15vw 0;
+    margin: 60px 0;
     position: relative;
     left: -10vw;
 }
@@ -3174,7 +3213,7 @@ header h1 a img{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 16vw;
+    /* margin-top: 16vw; */
 }
 #keyword_popup_2 .txtbox2 h1{
     color: #fff;
@@ -3201,7 +3240,7 @@ header h1 a img{
 #keyword_popup_2 .contentbox1 .contxtbox3{
     width: 100%;
     color: #fff;
-    padding-bottom: 40vw;
+    padding-bottom: 60vw;
 }
 #keyword_popup_2 .contentbox1 .contxtbox3 img{
     width: 100vw;
@@ -3209,14 +3248,15 @@ header h1 a img{
     left: -10vw;
     display: block;
     margin: 0 auto;
-    margin-top: 5vw;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
 }
 #keyword_popup_2 .contentbox1 .contxtbox3 p{
     text-align: left;
     font-size: 3.8vw;
     font-weight: 300;
-    margin-top: 3vw;
-    margin-left: 3vw;
+    margin-top: 10px;
+    margin-left: 2vw;
 }
 /* ---------------------------keyword3_popup----------------------------- */
 #keyword_popup_3{
@@ -3250,7 +3290,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     background: #000
 }
@@ -3259,7 +3299,7 @@ header h1 a img{
 }
 #keyword_popup_3 .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -3293,7 +3333,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    padding-top: 10vw;
+    padding-top: 90px;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .txtbox1 h1{
     color: #fff;
@@ -3326,17 +3367,17 @@ header h1 a img{
     font-size: 3.4vw;
     font-weight: 100;
     text-align: left;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-top: 30px;
+    /* margin-bottom: 5vw; */
 }
-#keyword_popup_3 .arrow{
+/* #keyword_popup_3 .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 50%;
-    /* left: 7.5vw; */
+    left: 7.5vw;
     z-index: 30;
 }
 #keyword_popup_3 .arrow img{
@@ -3349,7 +3390,7 @@ header h1 a img{
 #keyword_popup_3 .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #keyword_popup_3 .contentbox1{
     width: 90%;
     margin: 0 auto;
@@ -3364,33 +3405,34 @@ header h1 a img{
     margin: 0 auto;
     position: relative;
     left: -10vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox1 p:nth-child(3){
     text-align: left;
     font-size: 4.5vw;
     font-weight: 600;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
 }
 #keyword_popup_3 .contentbox1 .contxtbox1 p:nth-child(2){
     text-align: left;
     font-size: 4vw;
     font-weight: 300;
-    margin: 3vw 0;
-    margin-left: 3vw;
-    margin-top: 5vw;
+    margin: 0 0 3vw 0;
+    margin-left: 2vw;
+    /* margin-top: 5vw; */
     color: #b18269;
 }
 #keyword_popup_3 .contentbox1 .contxtbox2{
     width: 100%;
     color: #fff;
-    margin-top: 30vw;
+    margin-top: 100px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox2 img{
     width: 100vw;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     position: relative;
     left: -7vw;
 }
@@ -3399,7 +3441,7 @@ header h1 a img{
     font-size: 8vw;
     font-weight: 600;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3408,20 +3450,21 @@ header h1 a img{
     font-size: 4vw;
     font-weight: 300;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #b18269;
 }
 #keyword_popup_3 .contentbox1 .contxtbox2 audio{
     width: 90%;
-    margin: 5vw;
+    margin: 0 4vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox2 h1:nth-of-type(2){
     text-align: left;
     font-size: 5vw;
     font-weight: 400;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3430,7 +3473,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #fff;
 }
@@ -3439,15 +3482,16 @@ header h1 a img{
     font-size: 4vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #b18269;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #keyword_popup_3 .contentbox1 .contxtbox3{
     width: 100%;
     color: #fff;
-    margin-top: 10vw;
+    margin-top: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox3 img{
     width: 100vw;
@@ -3455,17 +3499,19 @@ header h1 a img{
     margin: 0 auto;
     position: relative;
     left: -7vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox3 audio{
     width: 90%;
-    margin: 5vw;
+    margin: 0 4vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox3 h1{
     text-align: left;
     font-size: 5vw;
     font-weight: 400;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3474,7 +3520,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #fff;
 }
@@ -3483,15 +3529,16 @@ header h1 a img{
     font-size: 4vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #b18269;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #keyword_popup_3 .contentbox1 .contxtbox4{
     width: 100%;
     color: #fff;
-    margin-top: 10vw;
+    margin-top: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox4 img{
     width: 100vw;
@@ -3499,17 +3546,19 @@ header h1 a img{
     margin: 0 auto;
     position: relative;
     left: -7vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox4 audio{
     width: 90%;
-    margin: 5vw;
+    margin: 0 4vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox4 h1{
     text-align: left;
     font-size: 4.5vw;
     font-weight: 400;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3518,7 +3567,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #fff;
 }
@@ -3527,15 +3576,16 @@ header h1 a img{
     font-size: 4vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #b18269;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #keyword_popup_3 .contentbox1 .contxtbox5{
     width: 100%;
     color: #fff;
-    margin-top: 10vw;
+    margin-top: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox5 img{
     width: 100vw;
@@ -3543,17 +3593,19 @@ header h1 a img{
     margin: 0 auto;
     position: relative;
     left: -7vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox5 audio{
     width: 90%;
-    margin: 5vw;
+    margin: 0 4vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox5 h1{
     text-align: left;
     font-size: 4vw;
     font-weight: 400;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3562,7 +3614,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #fff;
 }
@@ -3571,15 +3623,16 @@ header h1 a img{
     font-size: 4vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #b18269;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #keyword_popup_3 .contentbox1 .contxtbox6{
     width: 100%;
     color: #fff;
-    margin-top: 10vw;
+    margin-top: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox6 img{
     width: 130vw;
@@ -3587,17 +3640,19 @@ header h1 a img{
     margin: 0 auto;
     position: relative;
     left: -7vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox6 audio{
     width: 90%;
-    margin: 5vw;
+    margin: 0 4vw;
+    margin-bottom: 30px;
 }
 #keyword_popup_3 .contentbox1 .contxtbox6 h1{
     text-align: left;
     font-size: 4.5vw;
     font-weight: 400;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3606,7 +3661,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #fff;
 }
@@ -3615,34 +3670,31 @@ header h1 a img{
     font-size: 4vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #b18269;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #keyword_popup_3 .contentbox1 .contxtbox7{
     width: 100%;
     color: #fff;
-    margin-top: 10vw;
-    padding-bottom: 30vw;
+    margin-top: 30px;
+    padding-bottom: 60vw;
 }
 #keyword_popup_3 .contentbox1 .contxtbox7 img{
     width: 100vw;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     position: relative;
     left: -12vw;
-}
-#keyword_popup_3 .contentbox1 .contxtbox7 audio{
-    width: 90%;
-    margin: 5vw;
 }
 #keyword_popup_3 .contentbox1 .contxtbox7 h1{
     text-align: left;
     font-size: 5vw;
     font-weight: 400;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -3651,7 +3703,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 200;
     margin: 3vw 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     margin-top: 3vw;
     color: #fff;
 }
@@ -3687,7 +3739,7 @@ header h1 a img{
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     width: 90%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     background: #000
 }
@@ -3696,7 +3748,7 @@ header h1 a img{
 }
 #keyword_popup_4 .header{
     width: 85.5%;
-    height: 50px;
+    height: 60px;
     background: #434343;
     display: flex;
     justify-content: space-between;
@@ -3731,8 +3783,8 @@ header h1 a img{
     margin: 0 auto;
     text-align: center;
     margin-top: 10vw;
-    margin-bottom: 5vw;
-    padding-top: 10vw;
+    padding-top: 90px;
+    margin-bottom: 30px;
 }
 #keyword_popup_4 .txtbox1 h1{
     color: #fff;
@@ -3767,14 +3819,14 @@ header h1 a img{
     text-align: left;
     margin-top: 5vw;
 }
-#keyword_popup_4 .arrow{
+/* #keyword_popup_4 .arrow{
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 50%;
-    /* left: 7.5vw; */
+    left: 7.5vw;
     z-index: 30;
 }
 #keyword_popup_4 .arrow img{
@@ -3787,7 +3839,7 @@ header h1 a img{
 #keyword_popup_4 .arrow .next{
     position: relative;
     left: 300px;
-}
+} */
 #keyword_popup_4 .contentbox1{
     width: 90%;
     margin: 0 auto;
@@ -3799,29 +3851,29 @@ header h1 a img{
 #keyword_popup_4 .contentbox1 .contxtbox1 img{
     width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 #keyword_popup_4 .contentbox1 .contxtbox1 p{
     text-align: left;
     font-size: 3.5vw;
     font-weight: 300;
-    margin: 10vw 0 0;
-    margin-left: 3vw;
+    /* margin: 10vw 0 0; */
+    margin-left: 2vw;
 }
 #keyword_popup_4 .line{
     display: block;
     width: 100%;
     height: 1px;
     background-color: rgba(255,255,255,0.5);
-    margin: 15vw 0;
+    margin: 50px 0;
 }
 
 #keyword_popup_4 .txtbox2{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 16vw;
-    margin-bottom: 8vw;
+    /* margin-top: 16vw; */
+    margin-bottom: 30px;
 }
 #keyword_popup_4 .txtbox2 h1{
     color: #fff;
@@ -3859,7 +3911,7 @@ header h1 a img{
 #keyword_popup_4 .contentbox2{
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 40vw;
+    padding-bottom: 60vw;
 }
 #keyword_popup_4 .contentbox2 .contxtbox1{
     width: 100%;
@@ -3877,7 +3929,7 @@ header h1 a img{
     font-size: 3.5vw;
     font-weight: 300;
     margin: 10vw 0 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     text-transform: uppercase;
 }
 #keyword_popup_4 .contentbox2 .contxtbox1 p:nth-of-type(2){
@@ -3885,7 +3937,7 @@ header h1 a img{
     font-size: 2.5vw;
     font-weight: 400;
     margin: 5vw 0 0;
-    margin-left: 3vw;
+    margin-left: 2vw;
     color: rgba(255,255,255,0.3);
 }
 
